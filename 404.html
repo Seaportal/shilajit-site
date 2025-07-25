@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=/shilajit-site/" />
+    <meta charset="utf-8">
     <title>Redirecting…</title>
+    <script>
+      // GitHub Pages SPA redirect fix
+      var path = location.pathname.replace(/\/shilajit-site\/[^/]+/, "/shilajit-site/");
+      location.replace(path);
+    </script>
   </head>
   <body>
-    <p>If you are not redirected, <a href="/shilajit-site/">click here</a>.</p>
+    <p>Redirecting…</p>
   </body>
 </html>
